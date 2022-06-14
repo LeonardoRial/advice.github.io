@@ -1,0 +1,11 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.image {
+  content: url(/assets/pattern-divider-desktop.svg);
+  @media (max-width: 900px) {
+    content: url(/assets/pattern-divider-mobile.svg);
+  }
+}
